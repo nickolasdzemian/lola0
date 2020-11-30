@@ -18,11 +18,14 @@ These packages are included as dependencies in package.json file, if autoset is 
 Steps to run project
 In the project directory, you can run:
 
+```bash
 yarn or npm install
+```
 This will add the dependencies required to run the project.
-
+```bash
 yarn start or npm start
 This will start the project.
+```
 
 Lola generates Expo project at the moment, if you want to add custom fonts in your create-react-native-app project please refer these steps
 
@@ -33,7 +36,7 @@ Add rnpm to package.json providing the path to the font files:
     "./assets/fonts/"
   ]
 }
-Run react-native link
+Run ```bash react-native link ```
 This should add your custom fonts in the react native project.
 
 # Example setup

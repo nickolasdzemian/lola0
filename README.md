@@ -8,11 +8,13 @@ for users outside Chinese mainland, please remove `.npmrc` file.
 
 ## Possible required libraries
 This UI panel uses third party libraries for some of the react-native components such as
+```bash
 @builderx/utils@0.1.6
 lodash
 react-navigation@4.0.10
 react-native-svg
 react-native-maps
+```
 These packages are included as dependencies in package.json file, if autoset is turned on. Load some dependencies by yourself.
 
 Steps to run project

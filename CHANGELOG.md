@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file. See [standa
 
 # UI only dev
 
+## Known issues
+* the main layer may don't fill element's vertical position if some elements are deleted
+* tuya navigation doesn't work with react navigation (there is no navigation yet)
+
+### 1.2.0 (2020-12-05) Global Update
+* fix TUYA's Node version support
+* fix deps for thirdparty libs
+* reloaded some sketch data
+* rebuilt screen settings config.
+* rebuilt layers
+* added horizontal adoptaion for screens
+* added support for small resolution screens
+* added individual views for each element (for comfotrable editing UI for DPs)
+* added support for custom fonts
+* added ability to use system fonts
+* added separate child components for useless elements
+
 1.1.2 (2020-11-28)
 * prototyping UI
 * get 'flex adoptation

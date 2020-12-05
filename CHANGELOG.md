@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file. See [standa
 # UI only dev
 
 ## Known issues
-* the main layer may doesn't fill element's vertical position if some elements are deleted
+~~* the main layer may doesn't fill element's vertical position if some elements are deleted~~
 * tuya navigation doesn't work with react navigation (there is no navigation yet)
 
 ### 1.2.0 (2020-12-05) Global Update
